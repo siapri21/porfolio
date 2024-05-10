@@ -140,8 +140,9 @@ input{
        display: none;
     }
 
-    #section{
-        margin-left: 100px;
+    #section , #sections{
+        
+        width: 100%;
     }
     #text{
         position: relative;
