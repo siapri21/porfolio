@@ -1,0 +1,180 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+root{
+    --var: #fff;
+    --primary: rgb(209, 131, 13);
+    --secondart: rgba(121, 17, 17, 0.82);
+
+}
+
+body{
+    /* margin: 10px; */
+    /* background: rgba(0, 0, 0, 0.872); */
+/* background: rgba(254,177,0,1) ; */
+    /* font-family: "Jersey 15 Charted"; */
+        /* font-weight: 100; */
+        /* font-style: normal; */
+      
+}
+
+.barnav{
+    color: var(--var);
+    font-size: 1.7rem;
+}
+#logo{
+    margin-left: 200px;
+}
+
+#logo>a{
+    color: var(--var);
+    font-size: 2rem;
+}
+sup{
+    color: rgb(209, 131, 13);
+}
+
+/* images de fond  */
+#content{
+    /* width: 90%; */
+    /* height: 100vh; */
+    padding: 50px;
+    background: #04050c;
+}
+
+#images {
+    /* display: block; */
+    position: relative;
+    /* margin: 20px auto; */
+    margin-left: 250px;
+    width: 60vw;
+    height: 400px;
+}
+
+#text{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    padding: 20px;
+}
+
+#text> h3{
+    color: var(--var);
+    font-size: 4rem;
+}
+
+hr{
+    border: 2px solid #04050c;
+}
+
+
+/* competence */
+#image-fluid{
+    width: 350px;
+}
+
+/* a-propos */
+
+#section{
+    display: block;
+    margin: 0 auto;
+    /* justify-content: center; */
+    background-color: red;
+    width: 60%;
+}
+
+#contenaire{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+#text-fluid{
+    padding: 50px;
+}
+
+#contenaires{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* contact */
+
+#sections{
+    background: #0b1a8a;
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+}
+
+form{
+    width: 200px;
+    padding: 80px;
+}
+
+input{
+    width: 350px;
+    margin-bottom: 20px;
+}
+
+#input-field{
+    padding: 50px;
+}
+
+@media screen and (max-width:778px) {
+    .barnav{
+        font-size:10px ;
+        gap: 5px;
+    }
+    #content{
+        background-color: var(--var);
+    }
+
+    #images{
+       display: none;
+    }
+
+    #section{
+        margin-left: 100px;
+    }
+    #text{
+        position: relative;
+        bottom: 100%;
+        right: 50%;
+    }
+
+    #text> h3{
+        font-size: 2rem;
+        padding: 10px;
+    }
+
+    #contenaire{
+        display: block;
+        flex-direction: column;
+    }
+
+    /* #section{
+        width: 440px;
+        height: 250px;
+    } */
+
+    
+     #image-fluid{
+        width: 250px;
+    } 
+
+    form{
+
+        
+    }
+
+    input{
+        width: 170px;
+    }
+}
