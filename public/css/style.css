@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-root{
+:root{
     --var: #fff;
     --primary: rgb(209, 131, 13);
     --secondart: rgba(121, 17, 17, 0.82);
@@ -13,18 +13,19 @@ root{
 }
 
 body{
-    /* margin: 10px; */
-    /* background: rgba(0, 0, 0, 0.872); */
-/* background: rgba(254,177,0,1) ; */
-    /* font-family: "Jersey 15 Charted"; */
-        /* font-weight: 100; */
-        /* font-style: normal; */
+    background: #1D2D44  ;
+    /* background: #FF7F50; a utilise pour les bouton */
+   
+
       
 }
 
 .barnav{
     color: var(--var);
     font-size: 1.7rem;
+}
+li, a{
+    color: var(--var);
 }
 #logo{
     margin-left: 200px;
@@ -60,6 +61,7 @@ sup{
     top: 50%;
     left: 30%;
     padding: 20px;
+    color: var(--var);
 }
 
 #text> h3{
@@ -82,9 +84,10 @@ hr{
 #section{
     display: block;
     margin: 0 auto;
-    /* justify-content: center; */
-    background-color: red;
-    width: 60%;
+    justify-content: center;
+    /* background-color: #1D2D44 ; */
+    background: red;
+    width: 350px;
 }
 
 #contenaire{
@@ -92,22 +95,47 @@ hr{
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
+    /* background: rebeccapurple; */
 }
 
 #text-fluid{
     padding: 50px;
+    color: var(--var);
 }
 
-#contenaires{
+
+/* porfolio */
+
+#galleries {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+   
 }
+
+#box4{ 
+    width: 20%;
+}
+
+#box1 ,#box2 ,#box3{
+    width: 100px;
+    height: 100px;
+}
+
+
+
+
+
+
+
 
 /* contact */
 
 #sections{
-    background: #0b1a8a;
+    background: #03080f4f ;
     display: block;
     margin: 0 auto;
     width: 70%;
@@ -170,10 +198,6 @@ input{
         width: 250px;
     } 
 
-    form{
-
-        
-    }
 
     input{
         width: 170px;
