@@ -9,12 +9,15 @@
     --var: #fff;
     --primary: rgb(209, 131, 13);
     --secondart: rgba(121, 17, 17, 0.82);
+    --root:  rgb(10,36,133);
 
 }
 
 body{
-    background: #1D2D44  ;
+    /* background: #1D2D44  ; */
     /* background: #FF7F50; a utilise pour les bouton */
+    background: var(--root);
+    background: radial-gradient(circle, rgba(10,36,133,1) 0%, rgba(5,19,37,1) 100%);
    
 
       
@@ -25,6 +28,10 @@ body{
     font-size: 1.7rem;
 }
 li, a{
+    color: var(--var);
+}
+
+#contact{
     color: var(--var);
 }
 #logo{
@@ -40,11 +47,12 @@ sup{
 }
 
 /* images de fond  */
+
 #content{
     /* width: 90%; */
     /* height: 100vh; */
     padding: 50px;
-    background: #04050c;
+    /* background: var(--root); */
 }
 
 #images {
@@ -76,7 +84,9 @@ hr{
 
 /* competence */
 #image-fluid{
-    width: 350px;
+    display: block;
+    margin: 10px auto;
+    width: 200px;
 }
 
 /* a-propos */
