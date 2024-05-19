@@ -10,12 +10,12 @@
     --primary: rgb(209, 131, 13);
     --secondart: rgba(121, 17, 17, 0.82);
     --root:  rgb(10,36,133);
+    --thrid:  rgba(5,19,37,1);
 
 }
 
 body{
-    /* background: #1D2D44  ; */
-    /* background: #FF7F50; a utilise pour les bouton */
+    font-family: 'Times New Roman', Times, serif;
     background: var(--root);
     background: radial-gradient(circle, rgba(10,36,133,1) 0%, rgba(5,19,37,1) 100%);
    
@@ -48,20 +48,25 @@ sup{
 
 /* images de fond  */
 
-#content{
-    /* width: 90%; */
-    /* height: 100vh; */
-    padding: 50px;
-    /* background: var(--root); */
+#images {
+    /* padding: 8vh; */
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    transform: rotate(30deg);
 }
 
-#images {
-    /* display: block; */
-    position: relative;
-    /* margin: 20px auto; */
-    margin-left: 250px;
-    width: 60vw;
-    height: 400px;
+#reseaux >img{
+  box-shadow: 3px 3px var(--thrid), 1px 3px 3px var(--var);
+  /* box-shadow: 3px 3px red, -1em 0 .4em olive; */
+}
+
+#images1{
+    width: 10%;
+}
+
+#images2{
+    width: 20%;
 }
 
 #text{
@@ -86,7 +91,7 @@ hr{
 #image-fluid{
     display: block;
     margin: 10px auto;
-    width: 200px;
+    width: 400px;
 }
 
 /* a-propos */
@@ -113,6 +118,12 @@ hr{
     color: var(--var);
 }
 
+#images-fluid{
+    display: block;
+    margin: 10px auto;
+    width: 200px;
+}
+
 
 /* porfolio */
 
@@ -124,21 +135,35 @@ hr{
     flex-wrap: wrap;
     gap: 50px;
    
+   
 }
 
 #box4{ 
     width: 20%;
+    border-radius: 15px;
 }
 
 #box1 ,#box2 ,#box3{
     width: 100px;
     height: 100px;
+    border-radius: 15px;
 }
 
 
-
-
-
+/* alert */
+.issa{
+    position: fixed;
+    bottom: 25%;
+    left: 10%;
+    /* width: 100%; */
+    background:rgba(17, 51, 160, 0.363);
+    width: 80%;
+    height: 50vh;
+    z-index: 10;
+    color: var(--var);
+    /* margin-left: 100px; */
+  }
+  
 
 
 
@@ -152,8 +177,11 @@ hr{
 }
 
 form{
-    width: 200px;
+    width: 450px;
     padding: 80px;
+    border: 1px solid #04050c;
+    border-radius: 15px;
+    box-shadow: 3px 3px rgb(192, 192, 192), -1em 0 .4em rgb(231, 231, 222);
 }
 
 input{
@@ -163,6 +191,27 @@ input{
 
 #input-field{
     padding: 50px;
+}
+
+button{
+    background: var(--root);
+    border-radius: 15px;
+    border: 1px solid var(--root);
+    color: var(--var);
+    width: 100px;
+    text-align: center;
+}
+
+/* footer */
+
+footer{
+    background: var(--root);
+    padding: 20px;
+}
+
+footer >p{
+    color: var(--var);
+    text-align: center;
 }
 
 @media screen and (max-width:778px) {
