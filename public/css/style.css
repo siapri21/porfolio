@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
 
 *{
     margin: 0;
@@ -17,16 +18,14 @@
 body{
     font-family: 'Times New Roman', Times, serif;
     background: var(--root);
-    background: radial-gradient(circle, rgba(10,36,133,1) 0%, rgba(5,19,37,1) 100%);
-   
-
-      
+    background: radial-gradient(circle, rgba(10,36,133,1) 0%, rgba(5,19,37,1) 100%);   
 }
 
 .barnav{
     color: var(--var);
     font-size: 1.7rem;
 }
+
 li, a{
     color: var(--var);
 }
@@ -49,16 +48,10 @@ sup{
 /* images de fond  */
 
 #images {
-    /* padding: 8vh; */
     display: block;
     margin: 0 auto;
     width: 50%;
     transform: rotate(30deg);
-}
-
-#reseaux >img{
-  box-shadow: 3px 3px var(--thrid), 1px 3px 3px var(--var);
-  /* box-shadow: 3px 3px red, -1em 0 .4em olive; */
 }
 
 #images1{
@@ -78,7 +71,7 @@ sup{
 }
 
 #text> h3{
-    color: var(--var);
+    color: var(--primary);
     font-size: 4rem;
 }
 
@@ -100,7 +93,6 @@ hr{
     display: block;
     margin: 0 auto;
     justify-content: center;
-    /* background-color: #1D2D44 ; */
     background: red;
     width: 350px;
 }
@@ -110,7 +102,7 @@ hr{
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    /* background: rebeccapurple; */
+    
 }
 
 #text-fluid{
@@ -124,6 +116,24 @@ hr{
     width: 200px;
 }
 
+h3{
+    color: var(--primary);
+    font-family: "Bad Script", cursive;
+    font-weight: 400;
+    font-style: normal;   
+}
+
+em{
+    color: var(--primary);
+}
+
+strong{
+    color: rgb(135, 85, 185);
+}
+
+span{
+  color: var(--primary);
+}
 
 /* porfolio */
 
@@ -134,8 +144,6 @@ hr{
     flex-direction: row;
     flex-wrap: wrap;
     gap: 50px;
-   
-   
 }
 
 #box4{ 
@@ -149,23 +157,19 @@ hr{
     border-radius: 15px;
 }
 
-
 /* alert */
+
 .issa{
     position: fixed;
     bottom: 25%;
     left: 10%;
-    /* width: 100%; */
     background:rgba(17, 51, 160, 0.363);
     width: 80%;
     height: 50vh;
     z-index: 10;
     color: var(--var);
-    /* margin-left: 100px; */
   }
   
-
-
 
 /* contact */
 
@@ -202,6 +206,14 @@ button{
     text-align: center;
 }
 
+h1{
+    font-family: "Bad Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--primary);
+      
+}
+
 /* footer */
 
 footer{
@@ -214,6 +226,7 @@ footer >p{
     text-align: center;
 }
 
+
 @media screen and (max-width:778px) {
     .barnav{
         font-size:10px ;
@@ -223,9 +236,9 @@ footer >p{
         background-color: var(--var);
     }
 
-    #images{
+    /* #images{
        display: none;
-    }
+    } */
 
     #section , #sections{
         
