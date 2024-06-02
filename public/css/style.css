@@ -10,15 +10,17 @@
     --var: #fff;
     --primary: rgb(209, 131, 13);
     --secondart: rgba(121, 17, 17, 0.82);
-    --root:  rgb(10,36,133);
-    --thrid:  rgba(5,19,37,1);
+    --root:  #380434ea;
+    --thrid: #8a379e;
 
 }
 
 body{
     font-family: 'Times New Roman', Times, serif;
-    background: var(--root);
-    background: radial-gradient(circle, rgba(10,36,133,1) 0%, rgba(5,19,37,1) 100%);   
+    background: #380434ea;
+    /* background: radial-gradient(circle, rgba(138,55,158) 0%, rgba(179,22,217) 100%);    */
+    /* background: -webkit-linear-gradient(90deg, #ad0cb9,#a02265);                        */
+    /* background: linear-gradient(90deg, #ad0cb9,#8e077e);                                              */
 }
 
 .barnav{
@@ -77,6 +79,16 @@ sup{
 
 hr{
     border: 2px solid #04050c;
+}
+
+#button{
+    width: 150px;
+    height: 35px;
+    margin: 10px;
+}
+
+#button>a{
+    text-decoration: none;
 }
 
 
@@ -198,7 +210,7 @@ input{
 }
 
 button{
-    background: var(--root);
+    background: var(--primary);
     border-radius: 15px;
     border: 1px solid var(--root);
     color: var(--var);
