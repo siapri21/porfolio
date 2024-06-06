@@ -20,7 +20,9 @@ body{
     background: #380434ea;
     /* background: radial-gradient(circle, rgba(138,55,158) 0%, rgba(179,22,217) 100%);    */
     /* background: -webkit-linear-gradient(90deg, #ad0cb9,#a02265);                        */
-    /* background: linear-gradient(90deg, #ad0cb9,#8e077e);                                              */
+    /* background: linear-gradient(90deg, #ad0cb9,#8e077e);  
+                                                */
+    background-image: url(../img/data_image_png;base….png);
 }
 
 .barnav{
