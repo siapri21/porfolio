@@ -1,0 +1,246 @@
+
+:root{
+    --primary:rgb(119, 174, 228);
+    --secondary:rgb(20, 32, 91);
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    min-height: 100vh;
+    background-image: url("../img/data_image_png;base….png");
+    background-color: rgb(4, 33, 46);
+    position: relative;
+}
+
+nav {
+    position: fixed;
+    bottom: 0;
+    width: 400px;
+    background-color: rgba(34, 54, 119, 0.251);
+    text-align: center;
+     border-radius: 15px;
+     margin-left: 400px;
+}
+
+.fa-solid, .fa-brands {
+   color: var(--primary);
+}
+
+
+.title{
+    font-size:20px ;
+}
+
+.title1{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.title2{
+    font-size: medium;
+    color: gray;
+}
+
+.text{
+    font-size: 20px;
+}
+
+
+
+/* decouvrert */
+.container{
+    text-align: center;
+    color: #fff;
+}
+
+#Boutton{
+    width: 100px;
+    height: 50px;
+    /* padding: 20px; */
+    margin: 10px;
+    border: 1px solid var(--primary);
+    border-radius:15px ;
+    background-color: var(--primary);
+    color:#fff;
+    cursor: pointer;
+}
+
+#contenaire{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 70%;
+    margin: 0 auto;
+    
+}
+    
+.text-fluid1{
+    background-color: var(--secondary);
+    width: 230px;
+    height: 250px;
+    border: 1px solid var(--secondary);
+    border-radius: 15px;
+}
+
+
+i{
+    width: 20%;
+    align-items: center;
+    margin-left: 100px;
+}
+
+h6{
+    text-align: center;
+    font-weight: 400;
+    color: gray;
+
+}
+.text, .text1{
+    text-align: center;
+    color: gray;
+}
+
+.text2{
+    color: var(--primary);
+}
+
+h3{
+    text-align: center;
+    font-size: 40px;
+    color: gray;
+}
+
+#images-fluid1{
+    width: 350px;
+    border-radius: 50% 20%;
+}
+
+.image-transform{
+    background: var(--secondary);
+    width: 400px;
+    border-radius: 50% 20%;
+}
+
+
+#image-fluid{
+    background-color: var(--secondary);
+    border-radius: 15px;
+    width: 400px;
+}
+
+
+#text-fluid1{
+    background-color: var(--secondary);
+    width: 300px;
+    /* margin: 10px auto; */
+    padding: 20px;
+    border-radius: 15px;
+    color: var(--primary);
+    gap: 20px;
+}
+
+form{
+    margin: 10px auto;
+    width: 450px;
+    padding: 80px;
+    border: 5px solid var(--secondary);
+    border-radius: 15px;
+    /* box-shadow: 3px 3px rgb(192, 192, 192), -0.3rem 30px rgb(232, 229, 229); */
+    padding: 20px;
+}
+
+input{
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+#input-field{
+    padding: 20px;
+}
+
+button{
+    display: block;
+    margin: 0 auto;
+    background: var(--primary);
+    border-radius: 15px;
+    border: 1px solid var(--root);
+    color: #fff;
+    width: 150px;
+    height: 60px;
+}
+
+
+/* porfolio */
+
+#galleries {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    }
+    
+    #box4{ 
+        display: block;
+        margin: 20px auto;
+        width: 300px;
+        height: 250px;
+        border-radius: 15px;
+        /* background: var(--secondary); */
+    }
+        
+    #box1 ,#box2 ,#box3{
+    display: block;
+    margin: 0 auto;
+    /* background: var(--secondary); */
+    width: 300px;
+    height: 250px;
+    border-radius: 15px;
+    margin: 20px auto;
+}
+
+.content-images, .content1-images, .content2-images, .content3-images{
+    display: block;
+    margin: 0 auto;
+    background-color: var(--secondary);
+    border-radius: 15px;
+    width: 450px;
+    height: 400px;
+}
+
+#lien-button{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0 auto;
+   gap: 20px;
+   }
+   
+   .github, .lien-demo{
+       border: 1px solid var(--primary);
+       width: 100px;
+       height: 50px;
+       color:#fff;
+}
+
+.lien-demo>a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.lien-demo{
+    background-color: var(--secondary);
+}
+
+
+footer{
+    width: 100%;
+    background: var(--primary);
+    padding: 50px;
+}
+
+
+

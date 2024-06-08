@@ -1,34 +1,146 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Porfolio</title>
-    
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Jersey+15+Charted&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Porfolio</title>
+  <link rel="stylesheet" href="./public/css/accueil.css">
+  <script src="https://kit.fontawesome.com/ae331aba90.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
-    <div id="logo">
-     <a href="#">O <sup>S</sup>M</a>
-    </div>
-   <nav>
-    <ul class="nav justify-content-center barnav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Accueil</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">A-propos</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Porfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled " aria-disabled="true" id="contact">Contact</a>
-        </li>
-      </ul>
-   </nav>
-   
+
+  <article class="container">
+    <h3 class="title">Je suis </h3>
+    <h1 class="title1">OUATTARA SIAPRI MARIAM</h1>
+    <h2 class="title2">Dévéloppeuse web</h2>
+    </article>
+    <a href="https://www.linkedin.com/in/ouattara-siapri/" target="_blank"><i class="fa-brands fa-linkedin-in "></i></a>
+
+    <a href="https://github.com/siapri21" target="_blank"><i class="fa-brands fa-github " ></i></a>
+      
+
+  <h3 class="text"> Faire connaissance avec moi</h3>
+
+  <section id="sections">
+    <article id="contenaire">
+        <figure class="image-transform">
+            <img src="./public/img/SIAPRI2-removebg-preview.png" alt="ordinateur" id="images-fluid1">
+           </figure>
+
+           <figure id="text-fluid">
+               <div class="text-fluid1">
+                 <i class="fa-solid fa-sun"></i>
+                <h6>
+                  developpeuse web et mobile
+                </h6>
+                <p class="text">Formation Developpeur web et mobile BAC + 2</p>
+
+                <p class="text1">Doranco</p>
+            
+               </div>
+
+               <p class="text2"> Bonjour ! Je m'appelle SIAPRI, je suis une développeuse Web et mobile  passionnée 
+                par les nouvelles technologies. Actuellement en formation à Doranco, 
+                je commence mon chemin dans le monde passionnant du développement.</p>
+           </figure>
+       </article>
+   </section>
+
+
+   <h3 class="text">Langages & Outils Informatiques</h3>
+
+   <section id="sections">
+    <article id="contenaire">
+      <figure id="text-fluid1">
+           <p>Au cours de mon apprentissage, j'ai acquis une diversité de compétences informatiques,
+             notamment la gestion de projets avec des méthodes agiles. J'ai également développé 
+             ma capacité à structurer les projets grâce à l'utilisation de différentes méthodes 
+             de modélisation. Je reste ouvert à l'apprentissage de nouvelles technologies et au 
+             perfectionnement de mes compétences.</p>
+       </figure>
+      
+        <figure >
+            <img src="./public/img/langage-removebg-preview (1).png" alt="langage de programmation" id="image-fluid">
+        </figure>
+    </article>
+</section>
+
+
+<!-- porfolio -->
+
+<h3 class="text">Porfolio</h3>
+
+  <article class="contenaire">
+      
+
+          <figure id="galleries">
+
+             <figure class="content-images">
+               <img id="box1"   src="./public/img/starbuck.jpg" alt="starbuck">
+               <div id="lien-button">
+                <button class="github">Github</button>
+                <button class="lien-demo"><a href="https://site-e-commerce-starbuck.onrender.com/" target="_blank"> live Demo</a> </button>
+               </div>
+             </figure>
+
+         <figure  class="content1-images">
+           <img id="box2"   src="./public/img/neflix.jpg" alt="neflix">
+         <div id="lien-button">  
+          <button class="github">Github</button>
+          <button class="lien-demo"> <a href="https://clone-neflix.onrender.com/" target="_blank">live Demo</a></button>
+        </div>
+         </figure>
+
+           <figure  class="content2-images">
+             <img id="box3"   src="./public/img/e-show.jpg" alt="e-show">
+
+             <div id="lien-button">
+              <button class="github">Github</button>
+              <button class="lien-demo"> <a href="https://e-shop-projet.onrender.com/" target="_blank">live Demo</a></button>
+             </div> 
+           </figure>
+
+             <figure  class="content3-images">
+               <img  id="box4"  src="./public/img/calculatrice.jpg" alt="calculatrice">
+
+              <div id="lien-button">
+                <button class="github">Github</button>
+                <button class="lien-demo"> <a href="https://calculatricejava.onrender.com/" target="_blank">live Demo</a></button>
+              </div>
+
+             </figure>
+          </figure>
+  </article>
+
+<h3 class="text">Contact-moi </h3>
+
+<section id="sections">
+  <article id="contenaire">
+      <form  >
+          <input type="text" placeholder="Nom">
+          <input type="text" placeholder="E-mail">
+          <input type="text" placeholder="message" id="input-field">
+          <button>Envoyer</button>
+      </form>
+      <figure id="text-fluid">
+      </figure>
+  </article>
+</section>
+
+
+    
+    <nav>
+        <!-- Navigation -->
+        <a href="#"><i class="fa-solid fa-house"></i></a>
+        <a href="#" ><i class="fa-solid fa-star"></i></a>
+        <a href="#" ><i class="fa-solid fa-briefcase"></i></a>
+        <a href="#"><i class="fa-solid fa-user"></i></a>
+    </nav>
+
+
+    <footer>
+      <p>siapriouattara21@gmail.com</p>
+    </footer>
+</body>
+</html>
